@@ -1,27 +1,40 @@
 package org.transaction;
 
+import com.opencsv.bean.CsvBindByName;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.transaction.enums.Currency;
 import org.transaction.enums.Status;
 import org.transaction.exception.NotCardNumberException;
 
 import java.time.LocalDateTime;
+import java.util.Objects;
+
 
 @Getter
 @Setter
+@NoArgsConstructor
 public class Transaction {
+    @CsvBindByName(column = "SenderNumber")
     private long senderNumber;
+    @CsvBindByName(column = "ReceiverNumber")
     private long receiverNumber;
+    @CsvBindByName(column = "Sum")
     private int sum;
+    @CsvBindByName(column = "Currency")
     private Currency currency;
+    @CsvBindByName(column = "TransactionDateTime")
     private LocalDateTime transactionDateTime;
+    @CsvBindByName(column = "Purpose")
     private String purpose;
+    @CsvBindByName(column = "Status")
     private Status status;
 
     public Transaction(String senderNumber, String receiverNumber, int sum, Currency currency, String purpose) {
         this.senderNumber = checkedNumber(senderNumber);
         this.receiverNumber = checkedNumber(receiverNumber);
+        if (Objects.equals(senderNumber, receiverNumber)) throw new RuntimeException();
         this.sum = sum;
         this.currency = currency;
         this.purpose = purpose;
@@ -36,14 +49,6 @@ public class Transaction {
         } catch (RuntimeException e) {
             throw new NotCardNumberException(number + " cannot be transformed to card number");
         }
-    }
-
-    public String getSenderNumber() {
-        return saveNumber(senderNumber);
-    }
-
-    public String getReceiverNumber() {
-        return saveNumber(receiverNumber);
     }
 
     public void setSenderNumber(String senderNumber) {
