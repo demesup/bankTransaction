@@ -66,7 +66,9 @@ public class Main {
         //System.out.println(listInSeparatedLines(XMLParser.readList(XML_FILE)));
         // XMLParser.writeList(XML_FILE, transactionsTest);
 
-        CSVParser.generateCSV(CSV_FILE, transactionsTest.toArray());
-        System.out.println(CSVParser.readList(CSV_FILE, Transaction.class));
+//        CSVParser.readList(CSV_FILE, Transaction.class, getCsvSchema());
+//        writeList(CSV_FILE,transactionsTest, getCsvSchema());
+
+
     }
 }
