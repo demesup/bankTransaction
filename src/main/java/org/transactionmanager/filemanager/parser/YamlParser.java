@@ -4,7 +4,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.type.CollectionType;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 import org.transactionmanager.filemanager.Parsable;
-import org.transactionmanager.filemanager.Parser;
 import org.transactionmanager.filemanager.ParserType;
 import org.utils.exception.EmptyListException;
 

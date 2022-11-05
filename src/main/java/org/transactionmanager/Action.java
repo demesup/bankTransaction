@@ -4,5 +4,6 @@ public enum Action {
     ADD,
     DELETE,
     CHANGE,
-    EXIT
+    EXIT,
+    PRINT
 }

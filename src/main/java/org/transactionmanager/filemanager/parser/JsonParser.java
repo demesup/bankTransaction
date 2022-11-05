@@ -3,7 +3,6 @@ package org.transactionmanager.filemanager.parser;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import org.transactionmanager.filemanager.Parsable;
-import org.transactionmanager.filemanager.Parser;
 import org.transactionmanager.filemanager.ParserType;
 import org.utils.exception.EmptyListException;
 

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<transactions>
+  <transaction>
+    <uuid>47cd3601-a9cd-4235-b33f-c9ee9cafc497</uuid>
+    <senderNumber>7418529637418520</senderNumber>
+    <receiverNumber>1234-9632-9632-9631</receiverNumber>
+    <sum>741582</sum>
+    <currency>GBR</currency>
+    <dateTime>2022-11-05T21:26:48</dateTime>
+    <purpose>purpose</purpose>
+    <status>REQUEST</status>
+  </transaction>
+  <transaction>
+    <uuid>18034ebe-2f82-4944-bc3b-6f778dd5c6e6</uuid>
+    <senderNumber>1209120912091209</senderNumber>
+    <receiverNumber>3290110912091209</receiverNumber>
+    <sum>741852</sum>
+    <currency>EUR</currency>
+    <dateTime>2022-11-05T21:29:12</dateTime>
+    <purpose>Hello</purpose>
+    <status>REQUEST</status>
+  </transaction>
+</transactions>
