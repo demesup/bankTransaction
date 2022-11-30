@@ -1,0 +1,17 @@
+---
+- uuid: "47cd3601-a9cd-4235-b33f-c9ee9cafc497"
+  senderNumber: "7418529637418520"
+  receiverNumber: "1234-9632-9632-9631"
+  sum: 741582
+  currency: "GBR"
+  dateTime: "2022-11-05 21:26:48"
+  purpose: "purpose"
+  status: "REQUEST"
+- uuid: "18034ebe-2f82-4944-bc3b-6f778dd5c6e6"
+  senderNumber: "1209120912091209"
+  receiverNumber: "3290110912091209"
+  sum: 741852
+  currency: "EUR"
+  dateTime: "2022-11-05 21:29:12"
+  purpose: "Hello"
+  status: "REQUEST"

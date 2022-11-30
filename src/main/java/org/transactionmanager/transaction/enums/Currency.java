@@ -1,4 +1,4 @@
-package org.transaction.enums;
+package org.transactionmanager.transaction.enums;
 
 import lombok.Getter;
 

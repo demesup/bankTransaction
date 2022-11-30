@@ -1,0 +1,26 @@
+21:28:34.552 INFO  - Started at: 2022-11-05 21:28
+21:28:34.817 INFO  - All data is loaded
+21:29:12.263 INFO  - New transaction is created with uuid 18034ebe-2f82-4944-bc3b-6f778dd5c6e6
+21:29:27.139 INFO  - Transaction 4667356c-eb3b-4805-932f-d5073caac204 is removed
+21:29:52.153 INFO  - Transaction 47cd3601-a9cd-4235-b33f-c9ee9cafc497 is changed
+21:30:07.622 INFO  - List was saved under the path: 
+D:\IdeaProjects\bankTransaction\src\main\resources\transactions.yaml
+List saved under the path:
+D:\IdeaProjects\bankTransaction\src\main\resources\transactions.xml
+List was saved under the path: 
+D:\IdeaProjects\bankTransaction\src\main\resources\transactions.csv
+List was saved under the path: 
+D:\IdeaProjects\bankTransaction\src\main\resources\transactions.json
+21:30:07.623 INFO  - Ended at: 2022-11-05 21:30
+21:35:17.466 INFO  - Started at: 2022-11-05 21:35
+21:35:17.682 INFO  - All data is loaded
+21:35:48.175 INFO  - Transaction 18034ebe-2f82-4944-bc3b-6f778dd5c6e6 is changed
+21:36:00.217 INFO  - List was saved under the path: 
+D:\IdeaProjects\bankTransaction\src\main\resources\transactions.yaml
+List was saved under the path: 
+D:\IdeaProjects\bankTransaction\src\main\resources\transactions.json
+List was saved under the path: 
+D:\IdeaProjects\bankTransaction\src\main\resources\transactions.csv
+List saved under the path:
+D:\IdeaProjects\bankTransaction\src\main\resources\transactions.xml
+21:36:00.220 INFO  - Ended at: 2022-11-05 21:36
